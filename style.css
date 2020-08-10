@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.masthead {
+    width: 100%;
+    height: 750px;
+    background: #292d48 url("img/masthead.png") center no-repeat;
+    background-size: cover;
+}
+
+.header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #505268;
+}
+
+.logo {
+    margin: auto 0;
+}
+
+.nav {
+    display: flex;
+    margin: auto 0;
+}
+
+.nav_a {
+    margin-left: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.749);
+    font-weight: bold;
+    font-size: 13px;
+    opacity: .85;
+    transition: opacity .1s linear;
+}
+
+.nav_a:first-child {
+    margin-left: 0;
+}
+
+.nav_a:hover {
+    opacity: 1;
+}
+
+.intro {
+    margin: 156px auto 0;
+    width: 100%;
+    max-width: 970px;
+    text-align: center;
+}
+
+.mainTitle {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 65px;
+    line-height: 71px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subTitle {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: normal;
+    color: white;
+    margin: 43px auto 0;
+}
+
+.redButton {
+    margin: 77px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #e84545;
+    padding: 19px 40px;
+    border-radius: 2px;
+    opacity: 0.85;
+    transition: opacity .1s linear;
+}
+
+.redButton:hover {
+    opacity: 1;
+}
+
+.features {
+    width: 100%;
+    height: 692px;
+    background: #ffffff
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1170px;
+    margin: 125px auto 0;
+}
+
+.feature {
+    width: 33.33333%;
+    text-align: center;
+}
+
+.feature-title {
+    margin-top: 33px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.feature-subtitle {
+    padding: 0 45px;
+    margin-bottom: 70px;
+    line-height: 21px;
+    color: #6c7279;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    background-color: white
+}
+
+.work {
+    position: relative;
+    width: 25%;
+    height: 350px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    overflow: hidden;
+}
+
+.work img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work_noborder {
+    border-right: none;
+}
+
+.work_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(232, 69, 69, 0.9);
+    opacity: 0;
+    transition: opacity .1s linear;
+}
+
+.work_title {
+    color: white;
+    font-weight: bold;
+}
+
+.work_subtitle {
+    color: white;
+    margin-top: 15px;
+}
+
+.work_info:hover {
+    opacity: 1;
+}
+
+.team {
+    height: 782px;
+    background-color: white;
+}
+
+.team_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 101px auto 0;
+    width: 100%;
+    max-width: 1170px;
+    height: 580px;
+}
+
+.employee {
+    margin-right: 30px;
+}
+
+.employee:last-child {
+    margin: 0;
+}
+
+.name {
+    margin: 30px 0 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.position {
+    margin-top: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #e84545;
+}
+
+.characteristic {
+    margin: 30px 0 0;
+    line-height: 21px;
+    color: #6c7279;
+}
+
+.social_container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.social_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #e8ecee;
+    margin-right: 4px;
+}
