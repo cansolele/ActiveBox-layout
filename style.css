@@ -160,13 +160,10 @@ body {
 .work img {
     display: block;
     position: absolute;
+    min-width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.work_noborder {
-    border-right: none;
 }
 
 .work_info {
@@ -428,6 +425,12 @@ body {
     .intro {
         max-width: 90%
     }
+    .works {
+        height: auto;
+    }
+    .work {
+        width: 50%;
+    }
 }
 
 @media(max-width:950px) {
@@ -451,5 +454,14 @@ body {
     }
     .redButton {
         margin-bottom: 70px;
+    }
+    .feature {
+        width: 50%;
+    }
+    .features {
+        height: auto;
+    }
+    .feature-subtitle {
+        padding: 0 15px;
     }
 }
