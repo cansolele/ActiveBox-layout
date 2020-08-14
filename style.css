@@ -437,10 +437,19 @@ body {
     .menu_icon {
         display: block;
     }
-    .header {
-        max-width: 90%
+    .mainTitle {
+        font-size: 50px;
     }
-    .intro {
-        max-width: 90%
+}
+
+@media(max-width:750px) {
+    .mainTitle {
+        font-size: 40px;
+    }
+    .masthead {
+        height: auto;
+    }
+    .redButton {
+        margin-bottom: 70px;
     }
 }
