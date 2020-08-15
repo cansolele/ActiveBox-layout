@@ -431,6 +431,30 @@ body {
     .work {
         width: 50%;
     }
+    .team {
+        height: auto;
+    }
+    .team_container {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .employee {
+        margin-right: 0;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .characteristic {
+        max-width: 50%;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .employee:last-child {
+        margin-bottom: 30px;
+    }
+    .social_container {
+        justify-content: center;
+    }
 }
 
 @media(max-width:950px) {
@@ -463,5 +487,17 @@ body {
     }
     .feature-subtitle {
         padding: 0 15px;
+    }
+}
+
+@media(max-width:550px) {
+    .work {
+        width: 100%;
+    }
+    .employee {
+        width: 100%;
+    }
+    .characteristic {
+        width: 100%;
     }
 }
