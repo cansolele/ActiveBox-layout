@@ -114,7 +114,7 @@ body {
     background: #ffffff
 }
 
-.items {
+.feature_container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -308,6 +308,7 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
 }
 
@@ -467,17 +468,48 @@ body {
     .mainTitle {
         font-size: 50px;
     }
-}
-
-@media(max-width:750px) {
-    .mainTitle {
-        font-size: 40px;
+    .intro {
+        margin-top: 30px;
     }
     .masthead {
         height: auto;
     }
     .redButton {
         margin-bottom: 70px;
+    }
+    .client_photo {
+        width: 100%;
+    }
+    .customer_feedback {
+        width: 100%;
+    }
+    .clients_container {
+        padding: 0 15px;
+    }
+    .client_photo {
+        margin-top: 15px;
+        overflow: hidden;
+    }
+    .customer_feedback {
+        padding-left: 0;
+    }
+    .customer_name {
+        margin-bottom: 15px;
+    }
+    .download {
+        height: auto;
+    }
+    .download_title {
+        margin-top: 45px;
+    }
+    .download_button {
+        margin-bottom: 45px;
+    }
+}
+
+@media(max-width:750px) {
+    .mainTitle {
+        font-size: 40px;
     }
     .feature {
         width: 50%;
@@ -486,18 +518,44 @@ body {
         height: auto;
     }
     .feature-subtitle {
+        margin-bottom: 30px;
         padding: 0 15px;
+    }
+    .feature_container {
+        margin-top: 30px;
     }
 }
 
-@media(max-width:550px) {
+@media(max-width:600px) {
     .work {
         width: 100%;
+    }
+    .team_container {
+        margin-top: 30px;
     }
     .employee {
         width: 100%;
     }
     .characteristic {
         width: 100%;
+    }
+    .download_title {
+        line-height: 26px;
+    }
+    .download_button {
+        padding: 10px 70px;
+    }
+    .footer_container {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .footer_item {
+        width: 90%;
+    }
+    .footer_title {
+        margin-top: 30px;
+    }
+    .footer_container {
+        margin-bottom: 30px;
     }
 }
