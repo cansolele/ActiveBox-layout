@@ -459,6 +459,13 @@ body {
     .social_container {
         justify-content: center;
     }
+    .footer_subtitle {
+        padding: 0 70px;
+    }
+    .footer_container {
+        height: auto;
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width:950px) {
@@ -552,7 +559,6 @@ body {
         padding: 10px 70px;
     }
     .footer_container {
-        height: auto;
         flex-wrap: wrap;
     }
     .footer_item {
@@ -560,8 +566,5 @@ body {
     }
     .footer_title {
         margin-top: 30px;
-    }
-    .footer_container {
-        margin-bottom: 30px;
     }
 }
