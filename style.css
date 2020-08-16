@@ -549,6 +549,9 @@ body {
     .characteristic {
         width: 100%;
     }
+    .client_photo img {
+        right: -165px;
+    }
     .work {
         border-right: none;
     }
