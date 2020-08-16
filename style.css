@@ -432,6 +432,9 @@ body {
     .work {
         width: 50%;
     }
+    .work:nth-child(even) {
+        border-right: none;
+    }
     .team {
         height: auto;
     }
@@ -538,6 +541,9 @@ body {
     }
     .characteristic {
         width: 100%;
+    }
+    .work {
+        border-right: none;
     }
     .download_title {
         line-height: 26px;
